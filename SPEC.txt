@@ -14,7 +14,7 @@ Length is a 4-byte unsigned integer in network byte order.
 ----------------------------------------------------------------------
 Chunk specification:
 
-only one chunk is currently defined - "ALPH", containing alpha channel information.
+Only one chunk is currently defined - "ALPH", containing alpha channel information.
 
 The alpha channel may be represented as 1 bit, 8 bit, or 16 bit values (16 bit data should be stored in network byte order).
 
